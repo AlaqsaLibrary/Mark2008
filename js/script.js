@@ -28,7 +28,7 @@
 
         let result =
 
-            (old * 0.30) +
+            old  +
 
             (n1 * 0.175) +
 
