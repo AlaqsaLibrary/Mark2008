@@ -1,114 +1,259 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مكتبة الأقصى - معدل 2008</title>
+
+    <!-- عنوان الموقع -->
+    <title>حساب معدل جيل 2008 | مكتبة الأقصى</title>
+
+    <!-- وصف الموقع لمحركات البحث -->
+    <meta
+      name="description"
+      content="حاسبة معدل جيل 2008 من مكتبة الأقصى. احسب معدلك النهائي بسهولة باستخدام المعدل القديم وعلامات المواد الأربع حسب نظام الاحتساب."
+    />
+
+    <!-- كلمات البحث -->
+    <meta
+      name="keywords"
+      content="
+          حساب معدل جيل 2008,
+          معدل جيل 2008,
+          حاسبة معدل 2008,
+          حساب المعدل التوجيهي,
+          معدل الثانوية العامة,
+          مكتبة الأقصى,
+          حساب معدل الأردن
+          "
+    />
+
+    <!-- معلومات الموقع -->
+    <meta name="author" content="مكتبة الأقصى" />
+
+    <meta name="robots" content="index, follow" />
+
+    <!-- لغة الصفحة -->
+    <meta http-equiv="content-language" content="ar" />
+
+    <!-- الرابط الأساسي -->
+    <link rel="canonical" href="https://alaqsalibrary.github.io/Mark2008/" />
+
+    <!-- الأيقونة -->
+    <link rel="icon" type="image/png" href="src/logo.png" />
+
+    <!-- مشاركة فيسبوك وواتساب -->
+
+    <meta property="og:title" content="حساب معدل جيل 2008 | مكتبة الأقصى" />
+
+    <meta
+      property="og:description"
+      content="احسب معدل جيل 2008 إلكترونياً بسهولة وسرعة"
+    />
+
+    <meta
+      property="og:image"
+      content="https://alaqsalibrary.github.io/Mark2008/src/logo.png"
+    />
+
+    <meta
+      property="og:url"
+      content="https://alaqsalibrary.github.io/Mark2008/"
+    />
+
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:title" content="حساب معدل جيل 2008" />
+
+    <meta
+      name="twitter:description"
+      content="حاسبة معدل جيل 2008 من مكتبة الأقصى"
+    />
+
+    <!-- CSS -->
+
     <link rel="stylesheet" href="css/form.css" />
+
+    <!-- بيانات منظمة Google -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+
+        "name": "حاسبة معدل جيل 2008",
+
+        "url": "https://alaqsalibrary.github.io/Mark2008/",
+
+        "description": "أداة إلكترونية لحساب معدل جيل 2008",
+
+        "applicationCategory": "EducationalApplication",
+
+        "operatingSystem": "Web",
+
+        "author": {
+          "@type": "Organization",
+          "name": "مكتبة الأقصى"
+        }
+      }
+    </script>
   </head>
+
   <body>
-    <header>مكتبة الأقصى - معدل 2008</header>
-    <div class="container">
-      <main role="main" class="pb-3">
-        <div class="calculator">
-          <h1>حساب معدل جيل 2008</h1>
+    <header>مكتبة الأقصى</header>
 
-          <div id="form-container">
-            <div class="row">
-              <label>المعدل القديم</label>
-              <input type="number" id="old" placeholder="المعدل القديم" />
-            </div>
+    <main role="main">
+      <section class="calculator">
+        <h1>حساب معدل جيل 2008</h1>
 
-            <div class="row">
-              <label>المادة الأولى</label>
-              <input type="number" id="nu1" placeholder="العلامة" />
-            </div>
+        <p class="seo-text">
+          حاسبة معدل جيل 2008 تساعد الطلبة على حساب المعدل النهائي بسهولة وسرعة
+          حسب نظام الاحتساب المعتمد. قم بإدخال المعدل القديم وعلامات المواد
+          للحصول على النتيجة.
+        </p>
 
-            <div class="row">
-              <label>المادة الثانية</label>
-              <input type="number" id="nu2" placeholder="العلامة" />
-            </div>
+        <div id="form-container">
+          <div class="row">
+            <label for="old"> المعدل القديم </label>
 
-            <div class="row">
-              <label>المادة الثالثة</label>
-              <input type="number" id="nu3" placeholder="العلامة" />
-            </div>
-
-            <div class="row">
-              <label>المادة الرابعة</label>
-              <input type="number" id="nu4" placeholder="العلامة" />
-            </div>
-
-            <button id="calcBtn" type="button">احسب المعدل</button>
+            <input
+              type="number"
+              id="old"
+              placeholder="المعدل القديم"
+              aria-label="المعدل القديم"
+            />
           </div>
+
+          <div class="row">
+            <label for="nu1"> المادة الأولى </label>
+
+            <input
+              type="number"
+              id="nu1"
+              placeholder="العلامة"
+              aria-label="المادة الأولى"
+            />
+          </div>
+
+          <div class="row">
+            <label for="nu2"> المادة الثانية </label>
+
+            <input
+              type="number"
+              id="nu2"
+              placeholder="العلامة"
+              aria-label="المادة الثانية"
+            />
+          </div>
+
+          <div class="row">
+            <label for="nu3"> المادة الثالثة </label>
+
+            <input
+              type="number"
+              id="nu3"
+              placeholder="العلامة"
+              aria-label="المادة الثالثة"
+            />
+          </div>
+
+          <div class="row">
+            <label for="nu4"> المادة الرابعة </label>
+
+            <input
+              type="number"
+              id="nu4"
+              placeholder="العلامة"
+              aria-label="المادة الرابعة"
+            />
+          </div>
+
+          <button id="calcBtn" type="button">احسب المعدل</button>
         </div>
+      </section>
 
-        <!-- خلفية النافذة -->
-        <div id="overlay"></div>
+      <!-- Overlay -->
 
-        <!-- نافذة النتيجة -->
+      <div id="overlay"></div>
 
-        <div id="resultBox">
-          <button
-            class="closeResult"
-            onclick="closeResult()"
-            type="button"
-          ></button>
+      <!-- Result -->
 
-          <h2>نتيجة الاحتساب</h2>
+      <section id="resultBox">
+        <button
+          class="closeResult"
+          onclick="closeResult()"
+          type="button"
+          aria-label="إغلاق"
+        >
+          ×
+        </button>
 
-          <p>
-            المعدل القديم (30%) :
-            <span id="oldResult"></span>
-          </p>
+        <h2>نتيجة الاحتساب</h2>
 
-          <p>
-            المادة الأولى (17.5%) :
-            <span id="r1"></span>
-          </p>
+        <p>
+          المعدل القديم (30%) :
 
-          <p>
-            المادة الثانية (17.5%) :
-            <span id="r2"></span>
-          </p>
+          <span id="oldResult"></span>
+        </p>
 
-          <p>
-            المادة الثالثة (17.5%) :
-            <span id="r3"></span>
-          </p>
+        <p>
+          المادة الأولى (17.5%) :
 
-          <p>
-            المادة الرابعة (17.5%) :
-            <span id="r4"></span>
-          </p>
+          <span id="r1"></span>
+        </p>
 
-          <hr />
+        <p>
+          المادة الثانية (17.5%) :
 
-          <h3>
-            المعدل النهائي :
-            <span id="finalResult"></span>
-          </h3>
-        </div>
-      </main>
-    </div>
+          <span id="r2"></span>
+        </p>
 
-    <footer class="border-top footer text-muted">
+        <p>
+          المادة الثالثة (17.5%) :
+
+          <span id="r3"></span>
+        </p>
+
+        <p>
+          المادة الرابعة (17.5%) :
+
+          <span id="r4"></span>
+        </p>
+
+        <hr />
+
+        <h3>
+          المعدل النهائي :
+
+          <span id="finalResult"></span>
+        </h3>
+      </section>
+    </main>
+
+    <footer>
       <div class="footer-container">
-        &copy;
+        <span> © 2026 مكتبة الأقصى </span>
+
         <div>
           Developed by
+
           <a
             href="https://salahghanem.github.io/portfolio/html/arabic.html"
             target="_blank"
+            rel="author"
           >
             Salah Ghanem
           </a>
         </div>
 
-        2026 - mark2008
+        <span> mark2008 </span>
       </div>
     </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
