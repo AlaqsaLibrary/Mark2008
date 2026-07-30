@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+
+Sitemap:
+https://alaqsalibrary.github.io/Mark2008/sitemap.xml
