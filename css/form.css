@@ -25,7 +25,8 @@ body {
   max-width: 600px;
   margin: 50px auto;
   background: rgba(255, 255, 255, 0.6); /* أبيض مع شفافية بسيطة جداً */
-  padding: 30px;
+  /* padding: 30px;
+  padding-top: 0; */
   border-radius: 16px;
   border-top: 5px solid #f3c614; /* لمسة جمالية بلون الشعار */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -52,6 +53,9 @@ h1 {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 .row label {
@@ -91,6 +95,8 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(243, 198, 20, 0.3);
+  width: 100%;
+  margin-top: 20px;
 }
 
 button:hover {
@@ -202,7 +208,7 @@ button:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width< 600px) {
   .row {
     flex-direction: column;
     align-items: stretch;
@@ -215,6 +221,10 @@ button:hover {
 
   body {
     background-size: 300px;
+  }
+  input {
+    flex: 1;
+    width: 20%;
   }
 }
 header {
@@ -277,4 +287,62 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+.mark_change {
+  display: flex;
+}
+.mark_change > div {
+  height: 5vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #caa511;
+}
+#with_old {
+  border-top-right-radius: 16px;
+}
+#without_old {
+  border-top-left-radius: 16px;
+}
+.mark_change > div:hover {
+  font-size: 1.2scale;
+  background-color: #b69510;
+  cursor: pointer;
+}
+#form-with {
+  display: none;
+  flex-direction: row;
+  gap: 18px;
+}
+#form-with > div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 50%;
+  align-items: center;
+}
+#form-with > div > div > input {
+  width: 100%;
+}
+.first {
+  border-left: 1px solid #000000;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.row1 label {
+  width: 70px;
+  font-weight: bold;
+  color: #333333;
+  font-size: 16px;
+}
+#calcBtn1 {
+  display: none;
 }
