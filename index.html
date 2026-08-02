@@ -107,73 +107,90 @@
     <header>مكتبة الأقصى</header>
 
     <main role="main">
+      <!-- <h1>حساب معدل جيل 2008</h1> -->
       <section class="calculator">
-        <h1>حساب معدل جيل 2008</h1>
-
-        <p class="seo-text">
+        <!-- <p class="seo-text">
           حاسبة معدل جيل 2008 تساعد الطلبة على حساب المعدل النهائي بسهولة وسرعة
           حسب نظام الاحتساب المعتمد. قم بإدخال المعدل القديم وعلامات المواد
           للحصول على النتيجة.
-        </p>
-
+        </p> -->
+        <div class="mark_change">
+          <div id="with_old"><h2>معدل السنة الاولى</h2></div>
+          <div id="without_old"><h2>علامات السنتين</h2></div>
+        </div>
         <div id="form-container">
           <div class="row">
             <label for="old"> المعدل القديم </label>
 
-            <input
-              type="number"
-              id="old"
-              placeholder="المعدل القديم"
-              aria-label="المعدل القديم"
-            />
+            <input type="number" id="old" aria-label="المعدل القديم" />
           </div>
 
           <div class="row">
             <label for="nu1"> المادة الأولى </label>
 
-            <input
-              type="number"
-              id="nu1"
-              placeholder="العلامة"
-              aria-label="المادة الأولى"
-            />
+            <input type="number" id="nu1" aria-label="المادة الأولى" />
           </div>
 
           <div class="row">
             <label for="nu2"> المادة الثانية </label>
 
-            <input
-              type="number"
-              id="nu2"
-              placeholder="العلامة"
-              aria-label="المادة الثانية"
-            />
+            <input type="number" id="nu2" aria-label="المادة الثانية" />
           </div>
 
           <div class="row">
             <label for="nu3"> المادة الثالثة </label>
 
-            <input
-              type="number"
-              id="nu3"
-              placeholder="العلامة"
-              aria-label="المادة الثالثة"
-            />
+            <input type="number" id="nu3" aria-label="المادة الثالثة" />
           </div>
 
           <div class="row">
             <label for="nu4"> المادة الرابعة </label>
 
-            <input
-              type="number"
-              id="nu4"
-              placeholder="العلامة"
-              aria-label="المادة الرابعة"
-            />
+            <input type="number" id="nu4" aria-label="المادة الرابعة" />
           </div>
-
-          <button id="calcBtn" type="button">احسب المعدل</button>
         </div>
+        <div id="form-with">
+          <div class="first">
+            <h3>علامات السنة الاولى</h3>
+            <div class="row1">
+              <label for="old"> العلامة الاولى </label>
+              <input type="number" id="n11" aria-label="العلامة الاولى" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الثانية </label>
+              <input type="number" id="n12" aria-label="العلامة الثانية" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الثالثة </label>
+              <input type="number" id="n13" aria-label="العلامة الثالثة" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الرابعة </label>
+              <input type="number" id="n14" aria-label="العلامة الرابعة" />
+            </div>
+          </div>
+          <div class="second">
+            <h3>علامات السنة الثانية</h3>
+            <div class="row1">
+              <label for="old"> العلامة الاولى </label>
+              <input type="number" id="n21" aria-label="العلامة الاولى" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الثانية </label>
+              <input type="number" id="n22" aria-label="العلامة الثانية" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الثالثة </label>
+              <input type="number" id="n23" aria-label="العلامة الثالثة" />
+            </div>
+            <div class="row1">
+              <label for="old"> العلامة الرابعة </label>
+              <input type="number" id="n24" aria-label="العلامة الرابعة" />
+            </div>
+          </div>
+        </div>
+        <button id="calcBtn" type="button">احسب المعدل</button>
+        <button id="calcBtn1" type="button">1احسب المعدل</button>
       </section>
 
       <!-- Overlay -->
@@ -188,9 +205,7 @@
           onclick="closeResult()"
           type="button"
           aria-label="إغلاق"
-        >
-          ×
-        </button>
+        ></button>
 
         <h2>نتيجة الاحتساب</h2>
 
@@ -236,7 +251,7 @@
 
     <footer>
       <div class="footer-container">
-        <span> © 2026 مكتبة الأقصى </span>
+        <!-- <span> © 2026 مكتبة الأقصى </span> -->
 
         <div>
           Developed by
@@ -250,7 +265,7 @@
           </a>
         </div>
 
-        <span> mark2008 </span>
+        <!-- <span> mark2008 </span> -->
       </div>
     </footer>
 
