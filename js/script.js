@@ -303,9 +303,10 @@ document.getElementById("calcBtn1").addEventListener("click", function () {
    * معادلة الحساب الأصلية
    */
 
-  const firstYear = (n11 + n12 + n13 + n14) * 0.3;
+  const firstYear = (n11 + n12 + n13 + n14) / 10;
 
-  const secondYear = n21 * 0.175 + n22 * 0.175 + n23 * 0.175 + n24 * 0.175;
+  // const secondYear = n21 * 0.175 + n22 * 0.175 + n23 * 0.175 + n24 * 0.175;
+  const secondYear = (n21 + n22 + n23 + n24) / 10;
 
   const result = firstYear + secondYear;
 
