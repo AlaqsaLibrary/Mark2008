@@ -156,22 +156,22 @@ document.getElementById("calcBtn").addEventListener("click", function () {
     {
       id: "nu1",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "nu2",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "nu3",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "nu4",
       min: 0,
-      max: 100,
+      max: 175,
     },
   ];
 
@@ -241,7 +241,7 @@ document.getElementById("calcBtn1").addEventListener("click", function () {
     {
       id: "n12",
       min: 0,
-      max: 60,
+      max: 100,
     },
     {
       id: "n13",
@@ -251,27 +251,27 @@ document.getElementById("calcBtn1").addEventListener("click", function () {
     {
       id: "n14",
       min: 0,
-      max: 100,
+      max: 60,
     },
     {
       id: "n21",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "n22",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "n23",
       min: 0,
-      max: 100,
+      max: 175,
     },
     {
       id: "n24",
       min: 0,
-      max: 100,
+      max: 175,
     },
   ];
 
