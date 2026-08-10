@@ -197,7 +197,7 @@ document.getElementById("calcBtn").addEventListener("click", function () {
    * معادلة الحساب الأصلية
    */
 
-  const result = old + n1 * 0.175 + n2 * 0.175 + n3 * 0.175 + n4 * 0.175;
+  const result = old + n1 * 0.1 + n2 * 0.1 + n3 * 0.1 + n4 * 0.1;
 
   /*
    * عرض النتائج
