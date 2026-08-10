@@ -151,7 +151,7 @@ h3 {
 
 .row {
   display: flex;
-
+  flex-direction: row;
   align-items: center;
 
   justify-content: center;
@@ -505,7 +505,7 @@ footer {
   margin-top: auto;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
 
   justify-content: center;
@@ -515,14 +515,37 @@ footer {
   width: 100%;
 
   min-height: 45px;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-container > div {
   padding-right: 10px;
 
   padding-left: 10px;
+  position: fixed;
+  bottom: 0;
+} */
+footer {
+  background: #1e1e1e;
+  color: #ffffff;
+  padding: 15px;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 45px;
+}
+
+.footer-container > div {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 footer a {
   color: #f3c614;
 
@@ -644,7 +667,7 @@ footer a:hover {
 }
 
 .row1 label {
-  width: 70px;
+  width: 27%;
 
   font-weight: bold;
 
@@ -935,8 +958,20 @@ footer a:hover {
 /* =========================================================
    Responsive
    ========================================================= */
-
 @media (max-width: 600px) {
+  .row1 {
+    /* display: flex;
+    align-items: center; */
+    gap: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    width: calc(100% - 60px);
+    /* background-color: #000000; */
+  }
+}
+
+/* @media (max-width: 600px) {
   header {
     padding: 15px;
   }
@@ -1076,13 +1111,13 @@ footer a:hover {
   .seo-modal-faq summary {
     font-size: 14px;
   }
-}
+} */
 
 /* =========================================================
    هواتف صغيرة جدًا
    ========================================================= */
 
-@media (max-width: 380px) {
+/* @media (max-width: 380px) {
   .calculator {
     width: 94%;
   }
@@ -1104,7 +1139,7 @@ footer a:hover {
 
     font-size: 12px;
   }
-}
+} */
 /* .inputNumber {
   width: 10px;
   margin-left: 10px;
